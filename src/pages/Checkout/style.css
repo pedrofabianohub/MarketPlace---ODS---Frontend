@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+
+.title{
+    height: 30px;
+}
+
+.box-sidebar{
+    max-height: 482px;
+    overflow-y: auto;
+    align-content: flex-start;
+}
+
+.box-left{
+    box-shadow: none !important;
+}

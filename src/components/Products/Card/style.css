@@ -1,0 +1,49 @@
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    flex-direction: column;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.product:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.product img{
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    max-height: 280px;
+    width: 100%;
+}
+
+.titleWithButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-addCard{
+    margin-left: 10px;
+    margin-top: -7px ;
+    border-radius: 100px;
+}
+
+.btn-addCard button {
+    border-radius: 100px !important;
+    font-size: 26px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

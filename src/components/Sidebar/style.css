@@ -1,0 +1,16 @@
+.sidebar h5{
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.sidebar .footer{
+    height: 175px;
+    background-color: #f6f5f5;
+    align-items: end;
+}
+
+.sidebar .products{
+    height: calc(100% - 213px);
+    overflow: auto;
+    align-content: flex-start;
+}
